@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Jan 15 17:30:18 2026
+# Process ID: 43834
+# Current directory: /home/lguiga/Desktop/Lab2/Lab2.runs/synth_1
+# Command line: vivado -log topLevel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source topLevel.tcl
+# Log file: /home/lguiga/Desktop/Lab2/Lab2.runs/synth_1/topLevel.vds
+# Journal file: /home/lguiga/Desktop/Lab2/Lab2.runs/synth_1/vivado.jou
+# Running On: BELSPC0003, OS: Linux, CPU Frequency: 3559.064 MHz, CPU Physical cores: 4, Host memory: 16627 MB
+#-----------------------------------------------------------
+source topLevel.tcl -notrace

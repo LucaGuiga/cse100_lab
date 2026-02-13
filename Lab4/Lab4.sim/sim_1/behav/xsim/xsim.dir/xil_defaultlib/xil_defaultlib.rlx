@@ -1,0 +1,21 @@
+0.7
+2020.2
+Oct 13 2023
+20:21:30
+/home/lguiga/Desktop/Lab4/Lab4.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+/home/lguiga/Desktop/Lab4/Lab4.srcs/sim_1/new/test_benchMsgChk.v,1770160020,verilog,,,,test_benchMsgChk,,,,,,,,
+/home/lguiga/Desktop/Lab4/Lab4.srcs/sources_1/new/MsgChk.v,1770156113,verilog,,/home/lguiga/Desktop/Lab4/Lab4.srcs/sim_1/new/test_benchMsgChk.v,,MsgChk;MsgChkEq,,,,,,,,
+/home/lguiga/Desktop/Lab4/Lab4.srcs/sources_1/new/sim_exer.v,1770156113,verilog,,,,sim_exer,,,,,,,,
+/home/lguiga/Desktop/Lab4/Lab4.srcs/sources_1/new/target.v,1770867045,verilog,,/home/lguiga/Desktop/Lab4/time_counter.v,,target,,,,,,,,
+/home/lguiga/Desktop/Lab4/Lab4.srcs/sources_1/new/top.v,1770935974,verilog,,/home/lguiga/Desktop/Lab4/test_bench_top.v,,top,,,,,,,,
+/home/lguiga/Desktop/Lab4/edgeDetector.v,1769121639,verilog,,/home/lguiga/Desktop/Lab4/fsm.v,,edgeDetector,,,,,,,,
+/home/lguiga/Desktop/Lab4/fsm.v,1770867032,verilog,,/home/lguiga/Desktop/Lab4/hex7seg.v,,fsm,,,,,,,,
+/home/lguiga/Desktop/Lab4/hex7seg.v,1768519165,verilog,,/home/lguiga/Desktop/Lab4/led_shifter.v,,hex7seg,,,,,,,,
+/home/lguiga/Desktop/Lab4/led_shifter.v,1770334263,verilog,,/home/lguiga/Desktop/Lab4/lfsr.v,,led_shifter,,,,,,,,
+/home/lguiga/Desktop/Lab4/lfsr.v,1770326335,verilog,,/home/lguiga/Desktop/Lab4/qsec_clks.v,,lfsr,,,,,,,,
+/home/lguiga/Desktop/Lab4/qsec_clks.v,1770155247,verilog,,/home/lguiga/Desktop/Lab4/ringCounter.v,,clk_wiz_0;clkcntrl4;count4_MSCLK_clkcntrl4;qsec_clks,,,,,,,,
+/home/lguiga/Desktop/Lab4/ringCounter.v,1769210807,verilog,,/home/lguiga/Desktop/Lab4/selector.v,,ringCounter,,,,,,,,
+/home/lguiga/Desktop/Lab4/selector.v,1769115696,verilog,,/home/lguiga/Desktop/Lab4/Lab4.srcs/sources_1/new/target.v,,selector,,,,,,,,
+/home/lguiga/Desktop/Lab4/test_bench_fsm.v,1770873281,verilog,,,,tb_fsm,,,,,,,,
+/home/lguiga/Desktop/Lab4/test_bench_top.v,1770934412,verilog,,,,tb_top,,,,,,,,
+/home/lguiga/Desktop/Lab4/time_counter.v,1770346325,verilog,,/home/lguiga/Desktop/Lab4/Lab4.srcs/sources_1/new/top.v,,AddSub8;FA;adder8;countUD16L;countUD8L;mux8bit;time_counter,,,,,,,,

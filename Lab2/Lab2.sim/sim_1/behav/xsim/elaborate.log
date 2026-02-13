@@ -1,0 +1,71 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_signchanger_behav xil_defaultlib.test_signchanger xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9543] actual bit length 16 differs from formal bit length 8 for port 'sw' [/home/lguiga/Downloads/test_signchanger.v:38]
+WARNING: [VRFC 10-9543] actual bit length 16 differs from formal bit length 8 for port 'led' [/home/lguiga/Downloads/test_signchanger.v:44]
+WARNING: [VRFC 10-9543] actual bit length 32 differs from formal bit length 8 for port 'B' [/home/lguiga/Desktop/Lab2/adder8.v:88]
+WARNING: [VRFC 10-9543] actual bit length 7 differs from formal bit length 8 for port 'A' [/home/lguiga/Desktop/Lab2/Lab2.srcs/sources_1/new/topLevel.v:65]
+WARNING: [VRFC 10-3705] select index 8 into 'led' is out of bounds [/home/lguiga/Desktop/Lab2/Lab2.srcs/sources_1/new/topLevel.v:32]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 67. Module SignChanger doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 1. Module adder8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/hex7seg.v" Line 1. Module hex7seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/hex7seg.v" Line 1. Module hex7seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 67. Module SignChanger doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 1. Module adder8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/adder8.v" Line 30. Module FA doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/hex7seg.v" Line 1. Module hex7seg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lguiga/Desktop/Lab2/hex7seg.v" Line 1. Module hex7seg doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder8
+Compiling module xil_defaultlib.mux8bit
+Compiling module xil_defaultlib.SignChanger
+Compiling module xil_defaultlib.hex7seg
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=9.125...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.XOR2
+Compiling module unisims_ver.FDCE_default
+Compiling module xil_defaultlib.FTCE_MXILINX_clkcntrl4
+Compiling module unisims_ver.LUT4(INIT=16'b1000000000000000)
+Compiling module unisims_ver.AND4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3(INIT=8'b10000000)
+Compiling module unisims_ver.AND3
+Compiling module unisims_ver.AND2
+Compiling module unisims_ver.VCC
+Compiling module xil_defaultlib.CB4CE_MXILINX_clkcntrl4
+Compiling module unisims_ver.BUF
+Compiling module xil_defaultlib.clkcntrl4
+Compiling module unisims_ver.STARTUPE2
+Compiling module xil_defaultlib.lab2_digsel
+Compiling module xil_defaultlib.topLevel
+Compiling module xil_defaultlib.test_signchanger
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_signchanger_behav

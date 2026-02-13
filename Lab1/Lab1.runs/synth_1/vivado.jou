@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Jan  8 11:32:20 2026
+# Process ID: 14982
+# Current directory: /home/lguiga/Desktop/Lab1/Lab1.runs/synth_1
+# Command line: vivado -log oct2ssd.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source oct2ssd.tcl
+# Log file: /home/lguiga/Desktop/Lab1/Lab1.runs/synth_1/oct2ssd.vds
+# Journal file: /home/lguiga/Desktop/Lab1/Lab1.runs/synth_1/vivado.jou
+# Running On: BELSPC0019, OS: Linux, CPU Frequency: 3442.074 MHz, CPU Physical cores: 4, Host memory: 16626 MB
+#-----------------------------------------------------------
+source oct2ssd.tcl -notrace

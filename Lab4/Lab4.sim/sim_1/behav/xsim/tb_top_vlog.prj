@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../edgeDetector.v" \
+"../../../../fsm.v" \
+"../../../../hex7seg.v" \
+"../../../../led_shifter.v" \
+"../../../../lfsr.v" \
+"../../../../qsec_clks.v" \
+"../../../../ringCounter.v" \
+"../../../../selector.v" \
+"../../../../Lab4.srcs/sources_1/new/target.v" \
+"../../../../time_counter.v" \
+"../../../../Lab4.srcs/sources_1/new/top.v" \
+"../../../../test_bench_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

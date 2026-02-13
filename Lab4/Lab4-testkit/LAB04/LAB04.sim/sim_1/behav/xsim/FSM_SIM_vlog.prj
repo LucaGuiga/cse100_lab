@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../LAB04.srcs/sources_1/new/FSM.v" \
+"../../../../LAB04.srcs/sources_1/new/Target.v" \
+"../../../../LAB04.srcs/sources_1/imports/Downloads/led_shifter.v" \
+"../../../../LAB04.srcs/sources_1/imports/Downloads/lfsr.v" \
+"../../../../LAB04.srcs/sources_1/imports/Downloads/qsec_clks.v" \
+"../../../../LAB04.srcs/sources_1/imports/Downloads/time_counter.v" \
+"../../../../LAB04.srcs/sources_1/new/TopLevel.v" \
+"../../../../LAB04.srcs/sources_1/imports/imports/Lab02/hex7seg.v" \
+"../../../../LAB04.srcs/sources_1/imports/imports/Downloads/ringCounter.v" \
+"../../../../LAB04.srcs/sources_1/imports/imports/Downloads/selector.v" \
+"../../../../LAB04.srcs/sources_1/imports/new/EdgeDetector.v" \
+"../../../../LAB04.srcs/sources_1/imports/new/AddSub8.v" \
+"../../../../LAB04.srcs/sim_1/new/FSM_SIM.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

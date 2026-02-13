@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1767900737">
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="oct2ssd_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="oct2ssd_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="oct2ssd.vdi"/>
+  <File Type="BG-DRC" Name="oct2ssd.drc"/>
+  <File Type="BG-BGN" Name="oct2ssd.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="oct2ssd.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="oct2ssd.ltx"/>
+  <File Type="RBD_FILE" Name="oct2ssd.rbd"/>
+  <File Type="NPI_FILE" Name="oct2ssd.npi"/>
+  <File Type="RNPI_FILE" Name="oct2ssd.rnpi"/>
+  <File Type="CFI_FILE" Name="oct2ssd.cfi"/>
+  <File Type="RCFI_FILE" Name="oct2ssd.rcfi"/>
+  <File Type="PL-PDI-FILE" Name="oct2ssd_pld.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="oct2ssd_boot.pdi"/>
+  <File Type="PDI-FILE" Name="oct2ssd.pdi"/>
+  <File Type="BITSTR-MMI" Name="oct2ssd.mmi"/>
+  <File Type="BITSTR-BMM" Name="oct2ssd_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="oct2ssd.nky"/>
+  <File Type="BITSTR-RBT" Name="oct2ssd.rbt"/>
+  <File Type="BITSTR-MSK" Name="oct2ssd.msk"/>
+  <File Type="BG-BIN" Name="oct2ssd.bin"/>
+  <File Type="BG-BIT" Name="oct2ssd.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="oct2ssd_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="oct2ssd_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="oct2ssd_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="oct2ssd_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="oct2ssd_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="oct2ssd_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="oct2ssd_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="oct2ssd_postroute_physopt.dcp"/>
+  <File Type="ROUTE-RQS-PB" Name="oct2ssd_rqs_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="oct2ssd_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="oct2ssd_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="oct2ssd_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="oct2ssd_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="oct2ssd_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="oct2ssd_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="oct2ssd_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="oct2ssd_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="oct2ssd_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="oct2ssd_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="oct2ssd_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="oct2ssd_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="oct2ssd_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="oct2ssd_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="oct2ssd_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="oct2ssd_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="oct2ssd_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="oct2ssd_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="oct2ssd_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="oct2ssd_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="oct2ssd_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="oct2ssd_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="oct2ssd_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="oct2ssd_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="oct2ssd_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="oct2ssd_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="oct2ssd_postplace_pwropt.dcp"/>
+  <File Type="PLACE-RQA-PB" Name="oct2ssd_rqa_placed.pb"/>
+  <File Type="PLACE-TIMING" Name="oct2ssd_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="oct2ssd_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="oct2ssd_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="oct2ssd_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="oct2ssd_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="oct2ssd_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="oct2ssd_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="oct2ssd_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="oct2ssd_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="oct2ssd_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="oct2ssd_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="oct2ssd_pwropt.dcp"/>
+  <File Type="OPT-RQA-PB" Name="oct2ssd_rqa_opted.pb"/>
+  <File Type="OPT-TIMING" Name="oct2ssd_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="oct2ssd.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="oct2ssd_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="oct2ssd_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="oct2ssd_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="oct2ssd_timing_summary_init.rpt"/>
+  <File Type="REPORTS-TCL" Name="oct2ssd_reports.tcl"/>
+  <File Type="PA-TCL" Name="oct2ssd.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/oct2ssd.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/oct2ssd.v"/>
+        <Attr Name="ImportTime" Val="1767819127"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="oct2ssd"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1767818223"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/oct2ssd.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

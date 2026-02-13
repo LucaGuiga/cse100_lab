@@ -1,0 +1,47 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 1 for port 'D' [/home/lguiga/Desktop/Lab4/lfsr.v:10]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 16 for port 'Din' [/home/lguiga/Desktop/Lab4/time_counter.v:252]
+WARNING: [VRFC 10-9543] actual bit length 32 differs from formal bit length 1 for port 'CE' [/home/lguiga/Desktop/Lab4/edgeDetector.v:13]
+WARNING: [VRFC 10-9543] actual bit length 32 differs from formal bit length 1 for port 'CE' [/home/lguiga/Desktop/Lab4/edgeDetector.v:14]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=9.125...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.count4_MSCLK_clkcntrl4
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2(INIT=4'b1000)
+Compiling module unisims_ver.AND2
+Compiling module unisims_ver.BUF
+Compiling module xil_defaultlib.clkcntrl4
+Compiling module unisims_ver.STARTUPE2
+Compiling module xil_defaultlib.qsec_clks
+Compiling module xil_defaultlib.lfsr
+Compiling module xil_defaultlib.target
+Compiling module xil_defaultlib.mux8bit
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.adder8
+Compiling module xil_defaultlib.AddSub8
+Compiling module xil_defaultlib.countUD8L
+Compiling module xil_defaultlib.countUD16L
+Compiling module xil_defaultlib.time_counter
+Compiling module xil_defaultlib.edgeDetector
+Compiling module xil_defaultlib.fsm
+Compiling module xil_defaultlib.led_shifter
+Compiling module xil_defaultlib.ringCounter
+Compiling module xil_defaultlib.selector
+Compiling module xil_defaultlib.hex7seg
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav

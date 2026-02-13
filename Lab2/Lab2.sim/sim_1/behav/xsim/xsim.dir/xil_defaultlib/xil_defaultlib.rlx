@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 13 2023
+20:21:30
+/home/lguiga/Desktop/Lab2/Lab2.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+/home/lguiga/Desktop/Lab2/Lab2.srcs/sources_1/new/topLevel.v,1768527459,verilog,,/home/lguiga/Downloads/test_signchanger.v,,topLevel,,,,,,,,
+/home/lguiga/Desktop/Lab2/adder8.v,1768526663,verilog,,/home/lguiga/Desktop/Lab2/hex7seg.v,,AddSub8;FA;SignChanger;adder8,,,,,,,,
+/home/lguiga/Desktop/Lab2/hex7seg.v,1768519165,verilog,,/home/lguiga/Downloads/lab2_digsel.v,,hex7seg,,,,,,,,
+/home/lguiga/Desktop/Lab2/mux8bit.v,1768513022,verilog,,/home/lguiga/Desktop/Lab2/Lab2.srcs/sources_1/new/topLevel.v,,mux8bit,,,,,,,,
+/home/lguiga/Downloads/lab2_digsel.v,1768523682,verilog,,/home/lguiga/Desktop/Lab2/mux8bit.v,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab2_digsel,,,,,,,,
+/home/lguiga/Downloads/test_signchanger.v,1768526227,verilog,,,,test_signchanger,,,,,,,,

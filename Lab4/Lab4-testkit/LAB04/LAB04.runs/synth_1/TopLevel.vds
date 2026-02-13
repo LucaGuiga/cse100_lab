@@ -1,0 +1,366 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Feb 10 19:26:24 2026
+# Process ID: 30068
+# Current directory: C:/Users/swaya/CSE 100/LAB04/LAB04.runs/synth_1
+# Command line: vivado.exe -log TopLevel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopLevel.tcl
+# Log file: C:/Users/swaya/CSE 100/LAB04/LAB04.runs/synth_1/TopLevel.vds
+# Journal file: C:/Users/swaya/CSE 100/LAB04/LAB04.runs/synth_1\vivado.jou
+# Running On: SwayamHPLAP, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 16, Host memory: 24993 MB
+#-----------------------------------------------------------
+source TopLevel.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 464.996 ; gain = 185.621
+Command: read_checkpoint -auto_incremental -incremental {C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/utils_1/imports/synth_1/TopLevel.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/utils_1/imports/synth_1/TopLevel.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top TopLevel -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 33316
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1298.953 ; gain = 439.805
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'dummy', assumed default net type 'wire' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/qsec_clks.v:41]
+INFO: [Synth 8-11241] undeclared symbol 'dw_0', assumed default net type 'wire' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:34]
+INFO: [Synth 8-11241] undeclared symbol 'dw_1', assumed default net type 'wire' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:36]
+INFO: [Synth 8-11241] undeclared symbol 'reset_utc', assumed default net type 'wire' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/new/TopLevel.v:40]
+INFO: [Synth 8-6157] synthesizing module 'TopLevel' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/new/TopLevel.v:2]
+INFO: [Synth 8-6157] synthesizing module 'qsec_clks' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/qsec_clks.v:24]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/qsec_clks.v:58]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:73631]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:73631]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:82174]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 9.125000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 36.500000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:82174]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1951]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1951]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/qsec_clks.v:58]
+INFO: [Synth 8-6157] synthesizing module 'clkcntrl4' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/qsec_clks.v:187]
+INFO: [Synth 8-6157] synthesizing module 'count4_MSCLK_clkcntrl4' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/qsec_clks.v:324]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
+INFO: [Synth 8-6155] done synthesizing module 'count4_MSCLK_clkcntrl4' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/qsec_clks.v:324]
+INFO: [Synth 8-6157] synthesizing module 'AND2' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:905]
+INFO: [Synth 8-6155] done synthesizing module 'AND2' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:905]
+INFO: [Synth 8-6157] synthesizing module 'BUF' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1897]
+INFO: [Synth 8-6155] done synthesizing module 'BUF' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1897]
+INFO: [Synth 8-6155] done synthesizing module 'clkcntrl4' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/qsec_clks.v:187]
+INFO: [Synth 8-6157] synthesizing module 'STARTUPE2' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133907]
+	Parameter PROG_USR bound to: FALSE - type: string 
+	Parameter SIM_CCLK_FREQ bound to: 0.000000 - type: double 
+INFO: [Synth 8-6155] done synthesizing module 'STARTUPE2' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133907]
+INFO: [Synth 8-6155] done synthesizing module 'qsec_clks' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/qsec_clks.v:24]
+INFO: [Synth 8-6157] synthesizing module 'lfsr' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/lfsr.v:1]
+INFO: [Synth 8-6157] synthesizing module 'FDRE__parameterized0' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE__parameterized0' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
+INFO: [Synth 8-6155] done synthesizing module 'lfsr' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/lfsr.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Target' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/new/Target.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Target' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/new/Target.v:3]
+INFO: [Synth 8-6157] synthesizing module 'time_counter' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'countUD16L' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:17]
+INFO: [Synth 8-6157] synthesizing module 'countUD8L' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:57]
+INFO: [Synth 8-6157] synthesizing module 'adder8' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:127]
+INFO: [Synth 8-6157] synthesizing module 'full_add' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'full_add' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'adder8' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:127]
+INFO: [Synth 8-6155] done synthesizing module 'countUD8L' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'countUD16L' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'time_counter' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'EdgeDetector' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/new/EdgeDetector.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'EdgeDetector' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/new/EdgeDetector.v:4]
+INFO: [Synth 8-6157] synthesizing module 'AddSub8' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/new/AddSub8.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'AddSub8' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/new/AddSub8.v:5]
+INFO: [Synth 8-6157] synthesizing module 'FSM' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/new/FSM.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'FSM' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/new/FSM.v:2]
+WARNING: [Synth 8-7071] port 'flash' of module 'FSM' is unconnected for instance 'StateMach' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/new/TopLevel.v:105]
+WARNING: [Synth 8-7023] instance 'StateMach' of module 'FSM' has 18 connections declared, but only 17 given [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/new/TopLevel.v:105]
+INFO: [Synth 8-6157] synthesizing module 'led_shifter' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/led_shifter.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'led_shifter' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/led_shifter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ringCounter' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/imports/Downloads/ringCounter.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ringCounter' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/imports/Downloads/ringCounter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'selector' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/imports/Downloads/selector.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'selector' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/imports/Downloads/selector.v:1]
+INFO: [Synth 8-6157] synthesizing module 'hex7seg' [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/imports/Lab02/hex7seg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'hex7seg' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/imports/Lab02/hex7seg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'TopLevel' (0#1) [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/new/TopLevel.v:2]
+WARNING: [Synth 8-3848] Net ovfl in module/entity full_add does not have driver. [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:117]
+WARNING: [Synth 8-3848] Net Q0 in module/entity countUD16L does not have driver. [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:30]
+WARNING: [Synth 8-3848] Net Q1 in module/entity countUD16L does not have driver. [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/imports/Downloads/time_counter.v:30]
+WARNING: [Synth 8-3848] Net utc_reset in module/entity TopLevel does not have driver. [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/new/TopLevel.v:37]
+WARNING: [Synth 8-3848] Net prev_good in module/entity TopLevel does not have driver. [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/new/TopLevel.v:123]
+WARNING: [Synth 8-3848] Net prev_lose in module/entity TopLevel does not have driver. [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/sources_1/new/TopLevel.v:123]
+WARNING: [Synth 8-7129] Port ovfl in module full_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[14] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[13] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[1] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[0] in module TopLevel is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1410.113 ; gain = 550.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1410.113 ; gain = 550.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1410.113 ; gain = 550.965
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1410.113 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/constrs_1/imports/CSE 100/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/constrs_1/imports/CSE 100/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/swaya/CSE 100/LAB04/LAB04.srcs/constrs_1/imports/CSE 100/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopLevel_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TopLevel_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1445.148 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  AND2 => LUT2: 1 instance 
+  BUF => LUT1: 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1445.148 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 9     
+	   2 Input      6 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 31    
+	   4 Input      1 Bit         XORs := 1     
+	   3 Input      1 Bit         XORs := 64    
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 2     
+	   5 Input   16 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port sw[14] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[13] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[1] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[0] in module TopLevel is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (slowit/slowclk/XLXI_44/MSCLK_CNT4ff_3) is unused and will be removed from module TopLevel.
+WARNING: [Synth 8-3332] Sequential element (timer/TimeCounter/LOW/Q6) is unused and will be removed from module TopLevel.
+WARNING: [Synth 8-3332] Sequential element (timer/TimeCounter/LOW/Q7) is unused and will be removed from module TopLevel.
+WARNING: [Synth 8-3332] Sequential element (timer/TimeCounter/HIGH/Q0) is unused and will be removed from module TopLevel.
+WARNING: [Synth 8-3332] Sequential element (timer/TimeCounter/HIGH/Q1) is unused and will be removed from module TopLevel.
+WARNING: [Synth 8-3332] Sequential element (timer/TimeCounter/HIGH/Q2) is unused and will be removed from module TopLevel.
+WARNING: [Synth 8-3332] Sequential element (timer/TimeCounter/HIGH/Q3) is unused and will be removed from module TopLevel.
+WARNING: [Synth 8-3332] Sequential element (timer/TimeCounter/HIGH/Q4) is unused and will be removed from module TopLevel.
+WARNING: [Synth 8-3332] Sequential element (timer/TimeCounter/HIGH/Q5) is unused and will be removed from module TopLevel.
+WARNING: [Synth 8-3332] Sequential element (timer/TimeCounter/HIGH/Q6) is unused and will be removed from module TopLevel.
+WARNING: [Synth 8-3332] Sequential element (timer/TimeCounter/HIGH/Q7) is unused and will be removed from module TopLevel.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |AND2       |     1|
+|2     |BUF        |     2|
+|3     |BUFG       |     3|
+|4     |LUT1       |     7|
+|5     |LUT2       |    16|
+|6     |LUT3       |    12|
+|7     |LUT4       |    21|
+|8     |LUT5       |    10|
+|9     |LUT6       |    39|
+|10    |MMCME2_ADV |     1|
+|11    |STARTUPE2  |     1|
+|12    |FDRE       |    78|
+|13    |IBUF       |     5|
+|14    |OBUF       |    27|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1445.148 ; gain = 586.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 27 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 1445.148 ; gain = 550.965
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1445.148 ; gain = 586.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1445.148 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1445.148 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  AND2 => LUT2: 1 instance 
+  BUF => LUT1: 2 instances
+
+Synth Design complete | Checksum: b335bf53
+INFO: [Common 17-83] Releasing license: Synthesis
+82 Infos, 51 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1445.148 ; gain = 976.172
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1445.148 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/swaya/CSE 100/LAB04/LAB04.runs/synth_1/TopLevel.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TopLevel_utilization_synth.rpt -pb TopLevel_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 10 19:27:02 2026...

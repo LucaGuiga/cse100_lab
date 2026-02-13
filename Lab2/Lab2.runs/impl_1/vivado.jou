@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Jan 15 17:31:05 2026
+# Process ID: 44037
+# Current directory: /home/lguiga/Desktop/Lab2/Lab2.runs/impl_1
+# Command line: vivado -log topLevel.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source topLevel.tcl -notrace
+# Log file: /home/lguiga/Desktop/Lab2/Lab2.runs/impl_1/topLevel.vdi
+# Journal file: /home/lguiga/Desktop/Lab2/Lab2.runs/impl_1/vivado.jou
+# Running On: BELSPC0003, OS: Linux, CPU Frequency: 3566.633 MHz, CPU Physical cores: 4, Host memory: 16627 MB
+#-----------------------------------------------------------
+source topLevel.tcl -notrace

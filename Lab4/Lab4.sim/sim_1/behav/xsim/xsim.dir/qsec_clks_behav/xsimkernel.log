@@ -1,0 +1,7 @@
+Running: xsim.dir/qsec_clks_behav/xsimk -simmode gui -wdb qsec_clks_behav.wdb -simrunnum 0 -socket 40399
+Design successfully loaded
+Design Loading Memory Usage: 24656 KB (Peak: 24856 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 111012 KB (Peak: 163924 KB)
+Simulation CPU Usage: 20 ms

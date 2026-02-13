@@ -1,0 +1,33 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lguiga/Desktop/Lab4/edgeDetector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edgeDetector
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lguiga/Desktop/Lab4/fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lguiga/Desktop/Lab4/hex7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hex7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lguiga/Desktop/Lab4/led_shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lguiga/Desktop/Lab4/lfsr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lfsr
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lguiga/Desktop/Lab4/qsec_clks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qsec_clks
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clkcntrl4
+INFO: [VRFC 10-311] analyzing module count4_MSCLK_clkcntrl4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lguiga/Desktop/Lab4/ringCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ringCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lguiga/Desktop/Lab4/selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lguiga/Desktop/Lab4/Lab4.srcs/sources_1/new/target.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module target
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lguiga/Desktop/Lab4/time_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux8bit
+INFO: [VRFC 10-311] analyzing module adder8
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-311] analyzing module AddSub8
+INFO: [VRFC 10-311] analyzing module countUD8L
+INFO: [VRFC 10-311] analyzing module countUD16L
+INFO: [VRFC 10-311] analyzing module time_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lguiga/Desktop/Lab4/Lab4.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lguiga/Desktop/Lab4/test_bench_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top

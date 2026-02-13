@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Nov  5 20:21:27 2025
+# Process ID: 12588
+# Current directory: C:/Users/user1/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16648
+# Log file: C:/Users/user1/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/user1/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: DESKTOP-F2HOEK4, OS: Windows, CPU Frequency: 2189 MHz, CPU Physical cores: 12, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user1/Desktop/CSE100Lab4nmatvien/CSE100Lab4nmatvien.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+launch_simulation
+source tb_fsm.tcl
+archive_project C:/Users/user1/Desktop/CSE100Lab4nmatvienv3.xpr.zip -temp_dir C:/Users/user1/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12588-DESKTOP-F2HOEK4 -force -exclude_run_results
