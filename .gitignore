@@ -1,0 +1,12 @@
+# Archives
+*.zip
+
+# macOS junk
+.DS_Store
+**/.DS_Store
+
+# Vivado junk
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
